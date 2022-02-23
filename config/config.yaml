@@ -1,0 +1,48 @@
+# 配置邮箱
+email:
+  # 选择发送邮件方法，smtp 或 zmail
+#  flag: 'zmail'
+  flag: 'smtp'
+
+  # 连接邮箱的服务器名称
+#  host: 'smtp.qq.com'
+  host: 'smtp.partner.outlook.cn'
+
+
+  # 端口号
+  port: 587
+
+  # 发件邮箱号, qq邮箱
+#  sender_account: '2536298120@qq.com'
+  sender_account: 'yuyang2@sensetime.com'
+
+  # 客户端授权密码
+#  password: 'zjognqwcexhrdhia'
+  password: 'dacidabei9786^'
+
+  # 发件人名字
+  sender: '沧海一阳'
+
+  # 接收者
+  receiver:
+    - 'jingrui@softsugar.com'
+    - 'yuyang2@sensetime.com'
+#    - 'zhaozhiwei@softsugar.com'
+#    - 'jingrui@softsugar.com'
+    - 'yuyang1993417@qq.com'      #于洋
+
+
+  # 邮件主题
+  subject: 'SoftSugar 自动化测试报告'
+
+  # 邮件消息
+  message: "UT测试报告！"
+
+  #html名字
+  html: 'html/index.html'
+  #附件
+  attachments:
+#    - './config/yy.xlsx'
+    - 'report.txt'
+    - 'yy.txt'
+  xlsx: 'yy.xlsx'
